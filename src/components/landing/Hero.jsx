@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import MacCharacter from "../../assets/images/character1.png";
 import Button from "../buttons/Button";
-import RESUME from "../../../public/Muhammad Yusuf Rahman_resume.pdf";
+import RESUME from "../../assets/Muhammad Yusuf Rahman_resume.pdf";
 
 export default function HeroSection() {
   return (
@@ -15,17 +15,20 @@ export default function HeroSection() {
       <div className="container relative mx-auto px-4 pt-12 pb-24">
         <div className="flex flex-col items-center justify-center text-center z-10">
           <motion.div
-            initial={{ opacity: 0, y: -50}}
+            initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="relative mb-9 mt-24"
           >
             <div className="absolute inset-0 bg-gradient-to-b from-blue-500 to-transparent rounded-full blur-3xl"></div>
-            <img
-              src={MacCharacter}
-              alt="Muhammad Yusuf Rahman"
-              className="w-[230px] relative z-10"
-            />
+            <div className="w-[230px] h-fit">
+              <img
+                src={MacCharacter}
+                alt="Muhammad Yusuf Rahman"
+                className=" relative z-10"
+                loading="eager"
+              />
+            </div>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -43,7 +46,7 @@ export default function HeroSection() {
               something amazing together!
             </p>
             <div className="flex gap-4 justify-center">
-              <a href="/Muhammad Yusuf Rahman_resume.pdf" download>
+              <a href={RESUME} download>
                 <Button className={"text-base md:text-lg"}>Resume</Button>
               </a>
               <a href="mailto:yusufrhmann@gmail.com">
