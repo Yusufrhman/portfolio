@@ -21,11 +21,11 @@ export default function HeroSection() {
             className="relative mb-9 mt-24"
           >
             <div className="absolute inset-0 bg-gradient-to-b from-blue-500 to-transparent rounded-full blur-3xl"></div>
-            <div className="w-[230px] h-fit">
+            <div className="h-[230px] w-fit">
               <img
                 src={MacCharacter}
                 alt="Muhammad Yusuf Rahman"
-                className=" relative z-10"
+                className="h-full w-full relative z-10"
                 loading="eager"
               />
             </div>
