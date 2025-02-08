@@ -15,8 +15,8 @@ export default function HeroSection() {
       <div className="container relative mx-auto px-4 pt-12 pb-24">
         <div className="flex flex-col items-center justify-center text-center z-10">
           <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: -50}}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="relative mb-9 mt-24"
           >
