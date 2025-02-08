@@ -1,10 +1,13 @@
 import React from "react";
 
-import project1 from "../../assets/images/character.png";
+import character from "../../assets/images/character1.png";
 
 export const About = () => {
   return (
-    <section id="about" className="text-white p-8 md:w-[90%] lg:w-[85%] 2xl:max-w-[92rem] mx-auto">
+    <section
+      id="about"
+      className="text-white p-8 md:w-[90%] lg:w-[85%] 2xl:max-w-[92rem] mx-auto"
+    >
       <h2 className="text-3xl md:text-4xl lg:text-6xl text-center lg:text-left font-bold mb-8">
         About <span className="text-blue-500">Me</span>
       </h2>
@@ -56,17 +59,17 @@ export const About = () => {
             <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
             <p className="text-white/50">
               I specialize in building responsive and user-friendly web
-              applications using modern technologies. My experience
-              spans across developing scalable front-end solutions and
-              integrating seamless user interfaces. I have worked on multiple
-              projects, contributing to their architecture, design, and
-              development while ensuring optimal performance and accessibility.
+              applications using modern technologies. My experience spans across
+              developing scalable front-end solutions and integrating seamless
+              user interfaces. I have worked on multiple projects, contributing
+              to their architecture, design, and development while ensuring
+              optimal performance and accessibility.
             </p>
           </div>
           <div className="mt-4 relative border border-white/20 rounded-lg p-4 h-full min-h-[200px] overflow-hidden">
             <img
-              src={project1}
-              alt="Project 1"
+              src={character}
+              alt="character"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>

@@ -11,7 +11,7 @@ export default function Button({
         reverse
           ? "border border-blue-50  hover:text-blue-500"
           : "bg-blue-500 hover:bg-blue-700"
-      } rounded-full text-xl  transition-colors ${className}`}
+      } rounded-full   transition-colors ${className}`}
     >
       {children}
     </button>
