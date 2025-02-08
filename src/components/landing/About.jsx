@@ -1,6 +1,7 @@
 import React from "react";
 
 import character from "../../assets/images/character1.png";
+import H3 from "../H3";
 
 export const About = () => {
   return (
@@ -14,8 +15,8 @@ export const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         <div className="border border-white/20 rounded-lg p-6">
           <div>
-            <h3 className="text-2xl font-bold mb-2">01. Background</h3>
-            <p className="text-white/50 mb-6">
+            <H3>01. Background</H3>
+            <p className="text-sm md:text-base text-white/50 mb-6">
               I am a dedicated Website Developer with a strong foundation in
               Information Systems, currently pursuing my degree at Universitas
               Airlangga. My passion lies in crafting intuitive and engaging user
@@ -24,8 +25,8 @@ export const About = () => {
               learning and innovation in the field of web development.
             </p>
           </div>
-          <div className="rounded-lg p-4 mb-4 border border-white/20 ">
-            <code className="text-blue-200">
+          <div className="rounded-lg p-2 md:p-4 mb-4 border border-white/20 ">
+            <code className="text-xs md:text-base  text-blue-200">
               const skills = [<br />
               &nbsp;&nbsp;'React',
               <br />
@@ -56,8 +57,8 @@ export const About = () => {
 
         <div className="border border-white/20 rounded-lg p-6 flex flex-col justify-between">
           <div>
-            <h3 className="text-2xl font-bold mb-2">02. Expertise</h3>
-            <p className="text-white/50">
+            <H3>02. Expertise</H3>
+            <p className="text-sm md:text-base text-white/50">
               I specialize in building responsive and user-friendly web
               applications using modern technologies. My experience spans across
               developing scalable front-end solutions and integrating seamless
@@ -77,8 +78,8 @@ export const About = () => {
 
         <div className="border border-white/20 rounded-lg p-6 md:col-span-2 xl:col-span-1 flex flex-col justify-between">
           <div>
-            <h3 className="text-2xl font-bold mb-2">03. Skills</h3>
-            <p className="text-white/50 mb-4">
+            <H3>03. Skills</H3>
+            <p className="text-sm md:text-base text-white/50 mb-4">
               I have a strong command of various technologies and continuously
               enhance my skill set to remain at the cutting edge of web
               development.

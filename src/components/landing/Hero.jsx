@@ -5,7 +5,7 @@ import RESUME from "../../assets/Muhammad Yusuf Rahman_resume.pdf";
 
 export default function HeroSection() {
   return (
-    <div className="relative overflow-clip text-white bg-gradient-to-b from-neutral-950  to-[#525CEB] mb-44">
+    <div className="relative overflow-clip text-white bg-gradient-to-b from-neutral-950  to-[#525CEB] mb-20 md:mb-44">
       <div
         className="absolute bg-neutral-950 w-[1400px] xl:w-[120svw] h-[40rem] rounded-[50%] left-1/2 -translate-x-1/2 top-[350px] md:top-[450px] border-1 border-/30"
         style={{
