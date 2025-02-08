@@ -6,12 +6,14 @@ import RESUME from "../../assets/Muhammad Yusuf Rahman_resume.pdf";
 export default function HeroSection() {
   return (
     <div className="relative overflow-clip text-white bg-gradient-to-b from-neutral-950  to-[#525CEB] mb-20 md:mb-44">
+      <div className="absolute bg-blue-100 w-[1400px] xl:w-[120svw] h-[40rem] rounded-[50%] left-1/2 -translate-x-1/2 top-[350px] md:top-[450px] blur-xl"></div>
       <div
         className="absolute bg-neutral-950 w-[1400px] xl:w-[120svw] h-[40rem] rounded-[50%] left-1/2 -translate-x-1/2 top-[350px] md:top-[450px] border-1 border-/30"
         style={{
           background: "radial-gradient(closest-side, #0a0a0a 85%, #525CEB)",
         }}
       ></div>
+
       <div className="container relative mx-auto px-4 pt-12 pb-24 w-[90%]">
         <div className="flex flex-col items-center justify-center text-center z-10">
           <motion.div
@@ -47,7 +49,9 @@ export default function HeroSection() {
             </p>
             <div className="flex gap-4 justify-center">
               <a href={RESUME} download>
-                <Button className={"text-sm md:text-base lg:text-lg"}>Resume</Button>
+                <Button className={"text-sm md:text-base lg:text-lg"}>
+                  Resume
+                </Button>
               </a>
               <a href="mailto:yusufrhmann@gmail.com">
                 <Button className={"text-sm md:text-base lg:text-lg"} reverse>

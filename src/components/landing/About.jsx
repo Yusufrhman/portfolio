@@ -2,6 +2,7 @@ import React from "react";
 
 import character from "../../assets/images/character1.png";
 import H3 from "../H3";
+import H2 from "../H2";
 
 export const About = () => {
   return (
@@ -9,9 +10,9 @@ export const About = () => {
       id="about"
       className="text-white p-8 md:w-[90%] lg:w-[85%] 2xl:max-w-[92rem] mx-auto"
     >
-      <h2 className="text-3xl md:text-4xl lg:text-6xl text-center lg:text-left font-bold mb-8">
+      <H2>
         About <span className="text-blue-500">Me</span>
-      </h2>
+      </H2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         <div className="border border-white/20 rounded-lg p-6">
           <div>
