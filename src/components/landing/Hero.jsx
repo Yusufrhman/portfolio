@@ -2,10 +2,12 @@ import { motion } from "framer-motion";
 import character from "../../assets/images/character.png";
 import Button from "../buttons/Button";
 import RESUME from "../../assets/Muhammad Yusuf Rahman_resume.pdf";
+import { BackgroundBeams } from "../ui/background-beams";
 
 export default function HeroSection() {
   return (
     <div className="relative overflow-clip text-white bg-gradient-to-b from-neutral-950  to-[#525CEB] mb-20 md:mb-44">
+      <BackgroundBeams className="w-[200vw] md:w-full" />
       <div className="absolute bg-blue-100 w-[1400px] xl:w-[120svw] h-[40rem] rounded-[50%] left-1/2 -translate-x-1/2 top-[350px] md:top-[450px] blur-xl"></div>
       <div
         className="absolute bg-neutral-950 w-[1400px] xl:w-[120svw] h-[40rem] rounded-[50%] left-1/2 -translate-x-1/2 top-[350px] md:top-[450px] border-1 border-/30"
