@@ -12,8 +12,8 @@ import H2 from "../H2";
 import ProjectCard from "../ProjectCard";
 
 const projectCategory = {
-  website: "Web Apps",
-  mobile: "Mobile Apps",
+  website: { text: "Web Apps", style: " border-blue-200  text-blue-200 " },
+  mobile: { text: "Mobile Apps", style: " border-orange-200  text-orange-200 " },
 };
 
 const projects = [

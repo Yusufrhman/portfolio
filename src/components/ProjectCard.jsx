@@ -12,9 +12,18 @@ export default function ProjectCard({ project }) {
           />
         </div>
         <h4 className="text-base font-bold">{project.title}</h4>
-        <p className="text-sm border border-blue-200 w-fit text-blue-200 px-2 rounded-full">{project.category}</p>
+        <p
+          className={
+            "text-sm border w-fit border-blue-200  text-blue-200 px-2 rounded-full " +
+            project.category.style
+          }
+        >
+          {project.category.text}
+        </p>
         <p className="text-sm text-justify text-white/40">{project.desc}</p>
-        <p className="text-sm text-justify text-white/60 p-2 rounded-md">{project.devstack}</p>
+        <p className="text-sm text-justify text-white/60 p-2 rounded-md">
+          {project.devstack}
+        </p>
       </div>
       <div className="flex gap-2 flex-wrap">
         {project.git && (
