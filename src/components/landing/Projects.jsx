@@ -44,7 +44,7 @@ const projects = [
   {
     title: "Admin UMKM Desa Kare",
     category: projectCategory.website,
-    desc: "UMKM Kare is a Web-based admin platform designed to manage UMKM data in Desa Kare, featuring dual user roles, CRUD modules, and a responsive design to support digital transformation and local business growth.",
+    desc: "Admin UMKM Kare is a Web-based admin platform designed to manage UMKM data in Desa Kare, featuring dual user roles, CRUD modules, and a responsive design to support digital transformation and local business growth.",
     devstack: "Laravel 11, Filament, MySQL",
     link: "http://adminumkmkare.aryaprasetya.me/",
     git: "https://github.com/Yusufrhman/admin-umkm-kare-laravel.git",
