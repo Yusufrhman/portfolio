@@ -4,6 +4,7 @@ import isac from "../../assets/images/projects/isac.png";
 import kare from "../../assets/images/projects/kare.png";
 import adminkare from "../../assets/images/projects/adminkare.png";
 import upstyle from "../../assets/images/projects/upstyle.png";
+import epengaduan from "../../assets/images/projects/epengaduan.png";
 
 import H2 from "../H2";
 import ProjectCard from "../ProjectCard";
@@ -32,15 +33,6 @@ const projects = [
     git: "https://github.com/Yusufrhman/umkmkare",
     src: kare,
   },
-  // {
-  //   title: "UPSTYLE",
-  //   category: projectCategory.mobile,
-  //   desc: "Developed and integrated an order feature that allows users to place orders, track status, and receive notifications for payment and delivery updates. Successfully integrated the Midtrans payment gateway via Firebase Cloud Functions for secure, real-time payment processing.",
-  //   devstack: "Flutter, Firebase, Midtrans",
-  //   link: "https://play.google.com/apps/testing/com.stylelagi_team.stylelagi",
-  //   git: false,
-  //   src: upstyle,
-  // },
   {
     title: "Admin UMKM Desa Kare",
     category: projectCategory.website,
@@ -58,6 +50,28 @@ const projects = [
     link: "https://isac.himsiunair.com/",
     git: false,
     src: isac,
+  },
+  {
+    title: "UPSTYLE",
+    category: projectCategory.mobile,
+    desc: "Developed and integrated an order feature that allows users to place orders, track status, and receive notifications for payment and delivery updates. Successfully integrated the Midtrans payment gateway via Firebase Cloud Functions for secure, real-time payment processing.",
+    devstack: "Flutter, Firebase, Midtrans",
+    link: "https://play.google.com/apps/testing/com.stylelagi_team.stylelagi",
+    git: false,
+    src: upstyle,
+  },
+  {
+    title: "E-Pengaduan",
+    category: projectCategory.website,
+    desc: `This web-based Community Complaint Application is a class project designed
+          to provide a practical and efficient solution for citizens to report environmental
+          grievances to the relevant authorities. Key features include an intuitive online
+          complaint submission form, complaint status tracking, and access to news
+          related to complaint handling outcomes.`,
+    devstack: "EJS, Express.js, Node.js, Bootstrap, MySQL.",
+    link: false,
+    git: "https://github.com/Yusufrhman/E-pengaduan",
+    src: epengaduan,
   },
 ];
 
