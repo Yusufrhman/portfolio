@@ -83,7 +83,7 @@ const projects = [
   {
     title: "E-Pengaduan Mobile",
     category: projectCategory.mobile,
-    desc: `This school project is a web-based complaint app for reporting environmental issues, tracking progress, and accessing resolution updates, enhancing community-government communication.`,
+    desc: `This school project is a Mobile app-based complaint app for reporting environmental issues, tracking progress, and accessing resolution updates, enhancing community-government communication.`,
     devstack: "Flutter, Dart, Firebase",
     link: false,
     git: "https://github.com/Yusufrhman/e-pengaduan-mobile",
