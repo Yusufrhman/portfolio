@@ -5,6 +5,8 @@ import kare from "../../assets/images/projects/kare.png";
 import adminkare from "../../assets/images/projects/adminkare.png";
 import upstyle from "../../assets/images/projects/upstyle.png";
 import epengaduan from "../../assets/images/projects/epengaduan.png";
+import epengaduanMobile from "../../assets/images/projects/epengaduanMobile.png";
+import seoboost from "../../assets/images/projects/seoboost.png";
 
 import H2 from "../H2";
 import ProjectCard from "../ProjectCard";
@@ -68,6 +70,24 @@ const projects = [
     link: false,
     git: "https://github.com/Yusufrhman/E-pengaduan",
     src: epengaduan,
+  },
+  {
+    title: "SEOBoost",
+    category: projectCategory.website,
+    desc: `SEOBoost is a web application designed to help users analyze keywords, track keyword trends, and get SEO recommendations. The app allows users to input a keyword or phrase and provides detailed insights into search volume, competition, and SEO optimization techniques.`,
+    devstack: "React.js, Next.js, TailwindCSS, Google Trends, MongoDB, cheerio",
+    link: false,
+    git: "https://github.com/AgileRE-2024/SEO-TOOLS",
+    src: seoboost,
+  },
+  {
+    title: "E-Pengaduan Mobile",
+    category: projectCategory.mobile,
+    desc: `This school project is a web-based complaint app for reporting environmental issues, tracking progress, and accessing resolution updates, enhancing community-government communication.`,
+    devstack: "Flutter, Dart, Firebase",
+    link: false,
+    git: "https://github.com/Yusufrhman/e-pengaduan-mobile",
+    src: epengaduanMobile,
   },
 ];
 
