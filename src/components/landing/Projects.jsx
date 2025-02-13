@@ -63,11 +63,7 @@ const projects = [
   {
     title: "E-Pengaduan",
     category: projectCategory.website,
-    desc: `This web-based Community Complaint Application is a class project designed
-          to provide a practical and efficient solution for citizens to report environmental
-          grievances to the relevant authorities. Key features include an intuitive online
-          complaint submission form, complaint status tracking, and access to news
-          related to complaint handling outcomes.`,
+    desc: `This web-based Community Complaint Application is a school project designed to help citizens report environmental issues, track complaint progress, and access news on resolutions. It provides a practical and efficient solution for improving communication between the community and authorities.`,
     devstack: "EJS, Express.js, Node.js, Bootstrap, MySQL.",
     link: false,
     git: "https://github.com/Yusufrhman/E-pengaduan",
