@@ -7,7 +7,7 @@ export default function ProjectCard({ project }) {
         <div className="relative border border-white/20 rounded-lg p-4 aspect-[4/3] overflow-hidden">
           <img
             src={project.src}
-            alt="character"
+            alt={project.title}
             className="absolute inset-0 w-full h-full object-cover"
           />
         </div>
