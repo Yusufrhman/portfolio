@@ -2,6 +2,7 @@ import React from "react";
 import tedx from "../../assets/images/projects/tedx.png";
 import isac from "../../assets/images/projects/isac.png";
 import kare from "../../assets/images/projects/kare.png";
+import adminkare from "../../assets/images/projects/adminkare.png";
 import upstyle from "../../assets/images/projects/upstyle.png";
 
 import H2 from "../H2";
@@ -31,16 +32,24 @@ const projects = [
     git: "https://github.com/Yusufrhman/umkmkare",
     src: kare,
   },
+  // {
+  //   title: "UPSTYLE",
+  //   category: projectCategory.mobile,
+  //   desc: "Developed and integrated an order feature that allows users to place orders, track status, and receive notifications for payment and delivery updates. Successfully integrated the Midtrans payment gateway via Firebase Cloud Functions for secure, real-time payment processing.",
+  //   devstack: "Flutter, Firebase, Midtrans",
+  //   link: "https://play.google.com/apps/testing/com.stylelagi_team.stylelagi",
+  //   git: false,
+  //   src: upstyle,
+  // },
   {
-    title: "UPSTYLE",
-    category: projectCategory.mobile,
-    desc: "Developed and integrated an order feature that allows users to place orders, track status, and receive notifications for payment and delivery updates. Successfully integrated the Midtrans payment gateway via Firebase Cloud Functions for secure, real-time payment processing.",
-    devstack: "Flutter, Firebase, Midtrans",
-    link: "https://play.google.com/apps/testing/com.stylelagi_team.stylelagi",
-    git: false,
-    src: upstyle,
+    title: "Admin UMKM Desa Kare",
+    category: projectCategory.website,
+    desc: "UMKM Kare is a Web-based admin platform designed to manage UMKM data in Desa Kare, featuring dual user roles, CRUD modules, and a responsive design to support digital transformation and local business growth.",
+    devstack: "Laravel 11, Filament, MySQL",
+    link: "http://adminumkmkare.aryaprasetya.me/",
+    git: "https://github.com/Yusufrhman/admin-umkm-kare-laravel.git",
+    src: adminkare,
   },
-
   {
     title: "ISAC Himsi Unair",
     category: projectCategory.website,
